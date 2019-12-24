@@ -70,6 +70,10 @@ li{
   justify-content: space-between;
 }
 
+.projects img{
+  width:100%;
+}
+
 .project{
   width:400px;
   background-color: #FFFFFF;
