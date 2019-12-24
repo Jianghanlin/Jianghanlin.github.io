@@ -78,6 +78,27 @@ li{
   width:30px;
   margin-right: 17px;
 }
+.links img:hover{
+  opacity:0.5;
+}
+
+.info .jiaoyu{
+  width:35px;
+  margin-right: 10px;
+  vertical-align:bottom;
+}
+
+.info .nengli{
+  width:35px;
+  margin-right: 10px;
+  vertical-align:bottom;
+}
+
+.info .ruanjian{
+  width:34px;
+  margin-right: 10px;
+  vertical-align:bottom;
+}
 
 .project{
   width:400px;
