@@ -27,6 +27,7 @@ li{
 .profile h1{
   font-weight: bold;
 }
+
 .profile p{
    margin: 10px 0;   /*文字段落前后10px,左右0px,顺时针进行 */
 }
@@ -50,4 +51,56 @@ li{
 
 .info li{
   margin:20px 0;
+}
+
+.project-wrap{
+  width:1000px;
+  margin:0 auto;
+}
+
+.project-wrap h2{
+  margin-bottom:20px;
+  font-size: 1.2em;
+}
+
+
+.projects{
+  display: flex;
+  flex-wrap:wrap;
+  justify-content: space-between;
+}
+
+.project{
+  width:400px;
+  background-color: #FFFFFF;
+  padding:10px;
+  margin-bottom: 150px;
+  box-shadow: 2px 1px 15px rgba(0,0,0,0.1);
+  border-radius:9px;
+}
+
+.project h3{
+  margin:15px 0;
+  font-size: 1.2em;
+}
+
+.project p{
+  text-indent: 2em;
+  margin-bottom:20px;
+  line-height: 1.9em;
+  font-size: 1em;
+}
+
+.projects span{
+  margin-right:20px;
+  font-size: 0.9em;
+  font-weight: bold;
+}
+
+.purple{
+  color: #8C0CF4;
+}
+
+.red{
+  color: #CC0C1C;
 }
