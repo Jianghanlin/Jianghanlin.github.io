@@ -17,7 +17,7 @@ body{
 .profile{
   width:1000px;/*设置文字框的大小*/
   margin: 0 auto;
-  padding: 80px 0;
+  padding: 60px 0;
 }
 
 li{
@@ -33,7 +33,7 @@ li{
 }
 
 .profile .links{
-  margin-top: 20px;
+  margin-top: 30px;
 }
 
 .info{
@@ -72,6 +72,11 @@ li{
 
 .projects img{
   width:100%;
+}
+
+.links img{
+  width:30px;
+  margin-right: 17px;
 }
 
 .project{
