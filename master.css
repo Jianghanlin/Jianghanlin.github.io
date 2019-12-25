@@ -334,12 +334,19 @@ footer p {
     padding: 70px 0;
   }
 
-  .card {
+  .edu,.skill {
     margin-bottom: 80px;
   }
 
-  .header, .project {
+  .header{
     width: 100%;
+  }
+
+  .project{
+    width: 90%;
+    margin: auto;
+    margin-bottom: 80px;
+
   }
 
   .iphonex, .watch, .ipad, .pencil, .airpods {
