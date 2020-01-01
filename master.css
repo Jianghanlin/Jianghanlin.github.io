@@ -3,12 +3,12 @@
   padding: 0;
   box-sizing: border-box;
 }
+
 body {
   background-color: #f7f7f7;
   font-size: 1em;
   font-family: Microsoft YaHei;
 }
-
 
 .header {
   background-color: #EAEFF6;
@@ -27,8 +27,13 @@ body {
 li {
   list-style: none;
 }
+
 .fl {
   float: left;
+}
+
+.fr {
+  float: right;
 }
 
 .toul {
@@ -130,7 +135,6 @@ li {
   left: 0px;
 }
 
-
 .profile .myphoto img {
   width: 200px;
   border-radius: 150px;
@@ -145,17 +149,6 @@ li {
 .profile .jianshu .shipei {
   display: none;
 }
-
-.projects a {
-  text-decoration: none;
-  color: #272727;
-}
-
-.projects a:hover {
-  color: #FC8CB4;
-}
-
-
 
 .links li {
   text-align: center;
@@ -189,27 +182,6 @@ li {
 
 .info li {
   margin: 20px 0;
-}
-
-.project-wrap {
-  width: 1000px;
-  margin: 0 auto;
-}
-
-.project-wrap h2 {
-  margin-bottom: 20px;
-  font-size: 1.2em;
-}
-
-.projects {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-between;
-}
-
-.projects img {
-  width: 100%;
-  border-radius: 9px;
 }
 
 .links img {
@@ -288,8 +260,72 @@ li {
   vertical-align: middle;
 }
 
-.project {
-  width: 400px;
+.project-wrap {
+  width: 75%;
+  margin: 0 auto;
+  padding-left: 50px;
+  padding-right: 50px;
+
+}
+
+.project-wrap h2 {
+  margin-bottom: 40px;
+  font-size: 1.2em;
+}
+
+.flex {
+  display: flex;
+}
+
+.projects {
+  display: flex;
+  flex-direction: column;
+}
+
+.projects img {
+  height: 100%;
+  width: 512px;
+  border-radius: 9px;
+  float: left;
+}
+
+.miaoshu1 {
+  width: 380px;
+  float: left;
+  margin-left: 50px;
+  margin-top: 10px;
+}
+
+
+
+
+
+.miaoshu1 .zhaiyao{
+  margin: 15px 0;
+  text-indent: 2em;
+  line-height: 1.9em;
+  font-family:宋体;
+}
+
+.projects span {
+  margin-right: 20px;
+  font-size: 0.9em;
+  font-weight: bold;
+}
+
+
+.projects a {
+  text-decoration: none;
+  color: #272727;
+}
+
+.projects a:hover {
+  color: #FC8CB4;
+}
+
+.project1, .project2, .project3, .project4, .project5 {
+  width: 1050px;
+  height: 360px;
   background-color: #FFFFFF;
   padding: 10px;
   margin-bottom: 150px;
@@ -302,19 +338,17 @@ li {
   font-size: 1.2em;
 }
 
-.project p {
+/* .project p {
   text-indent: 2em;
   margin-bottom: 20px;
   line-height: 1.9em;
   font-size: 1em;
-}
-
-.projects span {
+} */
+/* .projects span {
   margin-right: 20px;
   font-size: 0.9em;
   font-weight: bold;
-}
-
+} */
 .xiangmu {
   width: 40px;
   margin-right: 10px;
@@ -327,6 +361,10 @@ li {
 
 .red {
   color: #CC0C1C;
+}
+
+.orange{
+  color: #FC6404;
 }
 
 footer {
@@ -442,6 +480,7 @@ footer p {
     transform: translate(1200px, 50px) rotate(720deg);
   }
 }
+
 /*
 @media(max-width:400px) {
   .profile, .info, .project-wrap, footer {
