@@ -3,7 +3,30 @@
   padding: 0;
   box-sizing: border-box;
 }
+body {
+  background-color: #f7f7f7;
+  font-size: 1em;
+  font-family: Microsoft YaHei;
+}
 
+
+.header {
+  background-color: #EAEFF6;
+  width: 100%;
+  height: 330px;
+  position: relative;
+}
+
+.profile {
+  width: 1000px;
+  /*设置文字框的大小*/
+  margin: 0 auto;
+  padding: 60px 0;
+}
+
+li {
+  list-style: none;
+}
 .fl {
   float: left;
 }
@@ -16,7 +39,6 @@
   text-decoration: none;
 }
 
-
 .underline1, .underline2, .underline3, .underline4, .underline5, .underline6, .underline7 {
   display: inline-block;
   background-color: #008cff;
@@ -25,7 +47,7 @@
   height: 5px;
   width: 0;
   left: -5%;
-  bottom:-8px;
+  bottom: -8px;
   border-radius: 4px;
   box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.2);
 }
@@ -38,21 +60,13 @@
   transition: 0.1s ease;
 }
 
-
-
 .QQ:hover~.t1 {
   left: 0px;
   opacity: 1;
 }
 
-
-.QQ:hover~.underline1{
-    width: 28px;
-    left: 0px;
-}
-
-.wechat:hover~.underline2 {
-  width: 58px;
+.QQ:hover~.underline1 {
+  width: 28px;
   left: 0px;
 }
 
@@ -61,13 +75,22 @@
   opacity: 1;
 }
 
+.wechat:hover~.underline2 {
+  width: 58px;
+  left: 0px;
+}
+
+.bilibili:hover~.t3 {
+  left: 0px;
+  opacity: 1;
+}
 
 .bilibili:hover~.underline3 {
   width: 48px;
   left: 0px;
 }
 
-.bilibili:hover~.t3 {
+.facebook:hover~.t4 {
   left: 0px;
   opacity: 1;
 }
@@ -77,7 +100,7 @@
   left: 0px;
 }
 
-.facebook:hover~.t4 {
+.bird:hover~.t5 {
   left: 0px;
   opacity: 1;
 }
@@ -87,7 +110,7 @@
   left: 0px;
 }
 
-.bird:hover~.t5 {
+.github:hover~.t6 {
   left: 0px;
   opacity: 1;
 }
@@ -97,7 +120,7 @@
   left: 0px;
 }
 
-.github:hover~.t6 {
+.gmail:hover~.t7 {
   left: 0px;
   opacity: 1;
 }
@@ -107,16 +130,6 @@
   left: 0px;
 }
 
-.gmail:hover ~.t7 {
-  left: 0px;
-  opacity: 1;
-}
-
-body {
-  background-color: #f7f7f7;
-  font-size: 1em;
-  font-family: Microsoft YaHei;
-}
 
 .profile .myphoto img {
   width: 200px;
@@ -142,23 +155,7 @@ body {
   color: #FC8CB4;
 }
 
-.header {
-  background-color: #EAEFF6;
-  width: 100%;
-  height: 330px;
-  position: relative;
-}
 
-.profile {
-  width: 1000px;
-  /*设置文字框的大小*/
-  margin: 0 auto;
-  padding: 60px 0;
-}
-
-li {
-  list-style: none;
-}
 
 .links li {
   text-align: center;
@@ -179,9 +176,9 @@ li {
 
 .info {
   display: flex;
-  width: 1000px;
+  width: 75%;
   margin: 0 auto;
-  padding: 70px 0;
+  padding: 90px 0;
   justify-content: space-between;
 }
 
@@ -445,7 +442,7 @@ footer p {
     transform: translate(1200px, 50px) rotate(720deg);
   }
 }
-
+/*
 @media(max-width:400px) {
   .profile, .info, .project-wrap, footer {
     width: 90%;
@@ -624,4 +621,4 @@ footer p {
       transform: translate(375px, 50px) rotate(720deg);
     }
   }
-}
+} */
