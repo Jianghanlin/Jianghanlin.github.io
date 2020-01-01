@@ -380,7 +380,7 @@ footer p {
   position: absolute;
   background-position: bottom;
   opacity: .3;
-  width: 100px;
+  width: 90px;
   animation-name: float2;
   animation-duration: 10s;
   animation-iteration-count: infinite;
@@ -391,7 +391,7 @@ footer p {
   position: absolute;
   background-position: bottom;
   opacity: .3;
-  width: 100px;
+  width: 80px;
   animation-name: float3;
   animation-duration: 15s;
   animation-iteration-count: infinite;
@@ -401,7 +401,7 @@ footer p {
 .ipad {
   position: absolute;
   background-position: top;
-  opacity: 0.5;
+  opacity: 0.2;
   width: 100px;
   animation-name: float4;
   animation-duration: 25s;
@@ -443,7 +443,7 @@ footer p {
 
 @keyframes float2 {
   from {
-    transform: translate(2000px, 1000px) rotate(0);
+    transform: translate(1400px, 1000px) rotate(0);
   }
 
   to {
