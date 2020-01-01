@@ -159,7 +159,7 @@ li {
 }
 
 .profile p {
-  margin: 10px 0;
+  margin: 15px 0;
   /*文字段落前后10px,左右0px,顺时针进行 */
 }
 
@@ -296,6 +296,19 @@ li {
   margin-top: 10px;
 }
 
+.miaoshu2 {
+  width: 450px;
+  float: left;
+  margin-left: 50px;
+  margin-top: 10px;
+}
+
+.miaoshu2 .zhaiyao{
+  margin: 15px 0;
+  text-indent: 2em;
+  line-height: 1.9em;
+  font-family:宋体;
+}
 
 
 
@@ -308,7 +321,7 @@ li {
 }
 
 .projects span {
-  margin-right: 20px;
+  margin-right: 15px;
   font-size: 0.9em;
   font-weight: bold;
 }
@@ -365,6 +378,10 @@ li {
 
 .orange{
   color: #FC6404;
+}
+
+.green{
+  color: #04E474;
 }
 
 footer {
