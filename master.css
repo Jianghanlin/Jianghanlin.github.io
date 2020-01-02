@@ -4,6 +4,19 @@
   box-sizing: border-box;
 }
 
+.totop{
+  width: 45px;
+  position: fixed;
+  bottom: 30px;
+  right: 40px;
+  opacity: 0.5;
+  z-index: 1;
+}
+
+.totop:hover{
+  opacity: 1;
+}
+
 body {
   background-color: #f7f7f7;
   font-size: 1em;
@@ -442,6 +455,17 @@ footer p {
   animation-direction: alternate;
 }
 
+.ipod {
+  position: absolute;
+  background-position: bottom;
+  opacity: .2;
+  width: 90px;
+  animation-name: float6;
+  animation-duration: 10s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
+
 .watch {
   position: absolute;
   background-position: bottom;
@@ -513,6 +537,18 @@ footer p {
     transform: translate(1200px, 50px) rotate(720deg);
   }
 }
+
+
+@keyframes float6 {
+  from {
+    transform: translate(-50px,500px) rotate(0);
+  }
+
+  to {
+    transform: translate(1200px, 200px) rotate(360deg);
+  }
+}
+
 
 /*
 @media(max-width:400px) {
