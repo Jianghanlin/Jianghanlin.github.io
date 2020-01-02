@@ -386,11 +386,22 @@ li {
 
 footer {
   margin: 30px auto;
+  margin-top: 0px;
 }
 
 footer p {
   text-align: center;
   color: #aaabab;
+}
+
+.classlogo{
+  width: 100%;
+  text-align: center;
+}
+
+.classlogo img{
+  width: 160px;
+
 }
 
 .airpods {
