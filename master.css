@@ -55,6 +55,7 @@ li {
   bottom: -8px;
   border-radius: 4px;
   box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.2);
+  z-index: 1;
 }
 
 .linktext {
@@ -63,6 +64,7 @@ li {
   opacity: 0;
   position: absolute;
   transition: 0.1s ease;
+  z-index: 1;
 }
 
 .QQ:hover~.t1 {
@@ -144,6 +146,7 @@ li {
   left: 50%;
   transform: translate(60%, -60%);
   box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.3);
+  z-index: 1;
 }
 
 .profile .jianshu .shipei {
@@ -344,6 +347,7 @@ li {
   margin-bottom: 150px;
   box-shadow: 2px 1px 15px rgba(0, 0, 0, 0.1);
   border-radius: 9px;
+  z-index: 1;
 }
 
 .project h3 {
@@ -403,6 +407,7 @@ footer p {
   width: 160px;
 
 }
+
 
 .airpods {
   position: absolute;
