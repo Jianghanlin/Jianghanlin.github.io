@@ -110,12 +110,12 @@ li {
   left: 0px;
 }
 
-.facebook:hover~.t4 {
+.zhihu:hover~.t4 {
   left: 0px;
   opacity: 1;
 }
 
-.facebook:hover~.underline4 {
+.zhihu:hover~.underline4 {
   width: 75px;
   left: 0px;
 }
